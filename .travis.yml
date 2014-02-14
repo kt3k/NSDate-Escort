@@ -1,4 +1,7 @@
 language: objective-c
+
+rvm: 1.9.3
+
 script:
   - ./script/run-test.sh
 after_success:
